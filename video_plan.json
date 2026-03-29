@@ -1,0 +1,51 @@
+{
+  "duration": 40,
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "type": "hook",
+      "text": "Big budget boost for infrastructure development.",
+      "position": "center",
+      "animation": "fade_zoom"
+    },
+    {
+      "id": 2,
+      "start": 4,
+      "end": 10,
+      "type": "summary",
+      "text": "Govt allocates record $500B for infrastructure.",
+      "position": "center",
+      "animation": "slide_up"
+    },
+    {
+      "id": 3,
+      "start": 10,
+      "end": 28,
+      "type": "key_points",
+      "points": [
+        "Record spending on transport and renewable energy.",
+        "New tax incentives introduced for businesses.",
+        "National education reform program launched."
+      ],
+      "animation": "stagger_fade"
+    },
+    {
+      "id": 4,
+      "start": 28,
+      "end": 36,
+      "type": "insight",
+      "text": "Boosts growth — but fiscal risks remain.",
+      "animation": "zoom_in"
+    },
+    {
+      "id": 5,
+      "start": 36,
+      "end": 40,
+      "type": "closing",
+      "text": "Stay tuned for market implications.",
+      "animation": "fade_out"
+    }
+  ]
+}

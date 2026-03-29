@@ -1,0 +1,37 @@
+{
+  "headline": "Nifty and Sensex Suffer Sharp Downturn Amidst Global Market Volatility",
+  "tldr": "The Nifty 50 index fell by over 1.28% this week, breaching key support levels and causing volatility to surge.",
+  "key_points": [
+    "Asian Paints, SBI, Tata Motors, HUL, and Maruti Suzuki are among the top gainers on the Sensex.",
+    "ONGC, Axis Bank, MM, Bajaj Auto, and Hero MotoCorp are major losers on the Sensex."
+  ],
+  "winners": [
+    "Asian Paints"
+  ],
+  "losers": [
+    "ONGC",
+    "Axis Bank"
+  ],
+  "market_impact": "Global market volatility is impacting Indian markets.",
+  "why_it_matters": "The downturn in Nifty and Sensex affects investors' risk perception and portfolio allocation.",
+  "what_next": [
+    "Monitor market trends and adjust portfolios accordingly",
+    "Stay informed about global market developments"
+  ],
+  "for_you": "Investors should be cautious and consider capital preservation strategies during times of volatility.",
+  "contrarian_view": "Some investors may view the downturn as an opportunity to buy undervalued stocks, but it's essential to conduct thorough research and risk assessment before making any investment decisions.",
+  "confidence_score": 85,
+  "video_script": {
+    "hook": "Global market volatility is causing a sharp downturn in Indian markets.",
+    "body": [
+      "The Nifty 50 index has fallen by over 1.28% this week, breaching key support levels and causing volatility to surge.",
+      "This downturn affects investors' risk perception and portfolio allocation."
+    ],
+    "closing": "Stay informed and adjust your portfolios accordingly to navigate market uncertainty."
+  },
+  "metadata": {
+    "topic": "nifty",
+    "persona": "investor",
+    "generated_at": "2026-03-28T23:00:38.006816"
+  }
+}

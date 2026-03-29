@@ -1,0 +1,21 @@
+{
+  "name": "et-gen-ai",
+  "version": "1.0.0",
+  "description": "An automated workflow system that transforms raw business news into structured, persona-specific intelligence briefings with video scripts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.441",
+    "@remotion/renderer": "^4.0.441",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.441"
+  }
+}
