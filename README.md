@@ -1,43 +1,39 @@
-# 📰 InteliBrief — ET Gen AI Hackathon
+# InteliBrief 📰🌐
 
-> **Transforming raw business news into structured, persona-specific intelligence briefings — powered by Claude AI.**
+> Transforms raw business news into structured, persona-specific intelligence briefings — powered by Claude AI.
 
 Built for the **Economic Times Gen AI Hackathon**, InteliBrief is an automated news intelligence engine that fetches live business news, analyzes it with AI, and delivers tailored briefings for investors, founders, and students — complete with video narration scripts.
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🔍 **Automated News Fetching** | Integrates with Serper.dev and NewsAPI for real-time coverage |
-| 🤖 **AI-Powered Analysis** | Uses Claude API for intelligent, context-aware briefing generation |
-| 🎯 **Persona-Specific Output** | Tailored insights for Investors, Founders, or Students |
-| 🎬 **Video Script Generation** | Auto-generates 45–60 second narration scripts per briefing |
-| ⏰ **Scheduled Briefings** | Daily/weekly automated reports via a background scheduler |
-| 🌐 **Webhook Integration** | Real-time briefing triggers via HTTP endpoints |
+| **Automated News Fetching** | Integrates with Serper.dev and NewsAPI for real-time coverage |
+| **AI-Powered Analysis** | Uses Claude API for intelligent, context-aware briefing generation |
+| **Persona-Specific Output** | Tailored insights for Investors, Founders, or Students |
+| **Video Script Generation** | Auto-generates 45–60 second narration scripts per briefing |
+| **Scheduled Briefings** | Daily/weekly automated reports via a background scheduler |
+| **Webhook Integration** | Real-time briefing triggers via HTTP endpoints |
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-### 1. Installation
+### 1. Install Dependencies
 
 ```bash
-# Navigate into the project directory
 cd news-intelligence-engine
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Set up environment variables
 cp .env.example .env
-# Open .env and fill in your API keys
 ```
 
-### 2. API Keys Required
+Open `.env` and fill in your API keys.
 
-| Service | Purpose | Get Key |
+### 2. Configure API Keys
+
+| Service | Purpose | Link |
 |---|---|---|
 | **Claude API** | Briefing generation | [console.anthropic.com](https://console.anthropic.com/) |
 | **Serper.dev** | Google Search results | [serper.dev](https://serper.dev/) |
@@ -55,7 +51,17 @@ python news_intelligence_engine.py -t "Fed Rate Cut" -p "investor" -o ./reports
 
 ---
 
-## 📄 Output Format
+## Personas
+
+| Persona | Focus Areas |
+|---|---|
+| **Investor** | Market impact, sector rotation, stock implications, risk/opportunity analysis, valuations |
+| **Founder** | Competitive landscape, funding environment, regulatory changes, strategic opportunities |
+| **Student** | Simplified explanations, core concepts, industry context, career implications |
+
+---
+
+## Output Format
 
 Each briefing is saved as a structured JSON file:
 
@@ -82,7 +88,7 @@ Each briefing is saved as a structured JSON file:
 
 ---
 
-## ⚙️ Automation Workflows
+## Automation
 
 ### Scheduled Briefings
 
@@ -118,17 +124,7 @@ curl -X POST http://localhost:5000/webhook/trigger \
 
 ---
 
-## 👤 Persona Descriptions
-
-| Persona | Focus Areas |
-|---|---|
-| 💼 **Investor** | Market impact, sector rotation, stock implications, risk/opportunity analysis, valuations |
-| 🚀 **Founder** | Competitive landscape, funding environment, regulatory changes, strategic opportunities |
-| 🎓 **Student** | Simplified explanations, core concepts, industry context, career implications |
-
----
-
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 intellibrief/
@@ -144,7 +140,7 @@ intellibrief/
 
 ---
 
-## 💡 Use Cases
+## Use Cases
 
 1. **VC Firms** — Daily sector briefings on portfolio company industries
 2. **Startup Founders** — Weekly intelligence on competition and funding landscape
@@ -154,17 +150,19 @@ intellibrief/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Language**: Python 3.8+
-- **AI**: Anthropic Claude API
-- **News Sources**: Serper.dev (Google Search), NewsAPI
-- **Scheduling**: Python `schedule` library
-- **Webhooks**: Flask / HTTP server
+| Layer | Technology |
+|---|---|
+| **Language** | Python 3.8+ |
+| **AI** | Anthropic Claude API |
+| **News Sources** | Serper.dev (Google Search), NewsAPI |
+| **Scheduling** | Python `schedule` library |
+| **Webhooks** | Flask / HTTP server |
 
 ---
 
-## 📜 License
+## License
 
 MIT License — Built for the **ET Gen AI Hackathon**. Free to use for hackathon projects and production deployments.
 
